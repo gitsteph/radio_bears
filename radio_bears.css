@@ -1,0 +1,28 @@
+h1#proj_name {
+  position: relative;
+  text-align: center;
+  text-shadow: -1px 0 cyan, 0 1px cyan, 1px 0 cyan, 0 -1px cyan;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(0deg, #00FFFF 50%, yellow 50%);
+}
+
+div#core_container {
+  height: 550px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container {
+  height: 500px;
+  width: 350px;
+  background: white;
+  border-style: solid;
+  border-width: 5px;
+  position: relative;
+  display: inline-block;
+  left: 10px;
+}
