@@ -40,7 +40,7 @@ div#container3 {
 }
 
 div#sun {
-  top: 40px;
+  top: 35px;
   height: 500px;
   width: 350px;
   background: orange;
@@ -51,8 +51,8 @@ div#sun {
 div#platform1 {
   position: absolute;
   top: 380px;
-  height: 125px;
-  width: 360px;
+  height: 123px;
+  width: 350px;
   opacity: 0.8;
   background: aquamarine;
   z-index: 4;
