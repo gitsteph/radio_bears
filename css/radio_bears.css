@@ -31,7 +31,7 @@ div.container {
 div#container3 {
   height: 500px;
   width: 350px;
-  background: #4A708B;
+  background: #1ac6ff;
   border-style: solid;
   border-width: 5px;
   position: relative;
@@ -309,4 +309,23 @@ div#center_wave_2 {
   border-left: 115px solid transparent;
   border-right: 145px solid transparent;
   border-bottom: 230px solid #00a3cc;
+}
+
+div.anim-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  opacity: 0.7;
+  position: absolute;
+}
+
+div.head { animation: my-animation 2s ease 0s infinite alternate; }
+div.head { animation: my-animation 2s linear 0s infinite alternate; }
+div.head { animation: my-animation 2s ease-in 0s infinite alternate; }
+div.head { animation: my-animation 2s ease-out 0s infinite alternate; }
+div.head { animation: my-animation 2s ease-in-out 0s infinite alternate; }
+
+@keyframes my-animation {
+  0% { background: #732626; top: 10%; }
+  100% { background: #00caff; top: 60%; }
 }
