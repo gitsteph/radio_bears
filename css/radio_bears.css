@@ -37,18 +37,36 @@ div#sun {
   clip-path: circle(50%);
 }
 
-div#center_wave_1 {
-  height: 500px;
+div#center_wave_0 {
+  position: absolute;
+  top: -50px;
+  height: 400px;
   width: 350px;
-  background: #ADD8E6;
-  clip-path: circle(25%);
+  background: purple;
+  z-index: 1;
+  -webkit-clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
+  clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
+}
+
+div#center_wave_1 {
+  position: absolute;
+  top: -50px;
+  height: 550px;
+  width: 350px;
+  background: blue;
+  z-index: 2;
+  -webkit-clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
+  clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
 }
 
 div#center_wave_2 {
+  position: absolute;
+  top: -10px;
   opacity: 0.8;
   background: #ADD8E6;
   height: 500px;
   width: 350px;
+  z-index: 3;
   -webkit-clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
   clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
 }
