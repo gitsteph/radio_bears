@@ -44,10 +44,7 @@ div#center_wave_1 {
   clip-path: circle(25%);
 }
 
-body{
-  background: #b3ffff;
-}
-
+/* bear properties */
 .box{
   position: relative;
   margin: auto;
@@ -58,6 +55,7 @@ body{
   background: none;
   border: solid 1px white
 }
+
 .head{
   position: absolute;
   top: 16.5%;
@@ -202,7 +200,6 @@ body{
   left: 75%;
   width: 35%;
   height: 30%;
-  //background: #990000;
   border-radius: 30%;
   border: 3px solid #ff6666
 }
@@ -213,14 +210,11 @@ body{
   left: -15%;
   width: 35%;
   height: 30%;
-  //background: #990000;
-  
   border-radius: 30%;
-
   border: 3px solid #ff6666
-    
 }
 
+/* icecap properties */
 .box{
   position: relative;
   margin: auto;
@@ -264,16 +258,3 @@ body{
   border-right: 145px solid transparent;
   border-bottom: 230px solid #00a3cc;
 }
-
-.sun{
-  position: absolute;
-  top: 25%;
-  left: 30%;
-  width: 0;
-  height: 0;
-  border-radius: 50%;
-  border-left: 175px solid;
-  border-right: 175px solid ;
-  border-bottom: 300px solid #00a3cc;
-}
-
