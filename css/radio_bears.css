@@ -29,12 +29,12 @@ div.container {
 }
 
 div#sun {
-  top: 75px;
+  top: 40px;
   height: 500px;
   width: 350px;
   background: orange;
   position: relative;
-  clip-path: circle(40%);
+  clip-path: circle(50%);
 }
 
 div#center_wave_1 {
@@ -42,6 +42,15 @@ div#center_wave_1 {
   width: 350px;
   background: #ADD8E6;
   clip-path: circle(25%);
+}
+
+div#center_wave_2 {
+  opacity: 0.8;
+  background: #ADD8E6;
+  height: 500px;
+  width: 350px;
+  -webkit-clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
+  clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
 }
 
 /* bear properties */
