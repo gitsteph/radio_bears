@@ -28,6 +28,17 @@ div.container {
   left: 10px;
 }
 
+div#container3 {
+  height: 500px;
+  width: 350px;
+  background: #;
+  border-style: solid;
+  border-width: 5px;
+  position: relative;
+  display: inline-block;
+  left: 10px;
+}
+
 div#sun {
   top: 40px;
   height: 500px;
