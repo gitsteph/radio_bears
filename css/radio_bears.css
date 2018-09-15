@@ -48,6 +48,16 @@ div#sun {
   clip-path: circle(50%);
 }
 
+div#platform1 {
+  position: absolute;
+  top: 380px;
+  height: 125px;
+  width: 360px;
+  opacity: 0.8;
+  background: aquamarine;
+  z-index: 4;
+}
+
 div#center_wave_0 {
   position: absolute;
   top: -20px;
@@ -128,6 +138,7 @@ div#center_wave_2 {
   border-right: 15px solid transparent;
   border-bottom: 50px solid #00a3cc;
 }
+
 .mouth-teeth1{
   position: absolute;
   top: 55%;
@@ -149,6 +160,7 @@ div#center_wave_2 {
   border-right: 15px solid transparent;
   border-top: 50px solid #00a3cc;
 }
+
 .mouth-teeth-top2{
   position: absolute;
   top: 5%;
