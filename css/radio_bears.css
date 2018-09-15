@@ -39,20 +39,22 @@ div#sun {
 
 div#center_wave_0 {
   position: absolute;
-  top: -50px;
+  top: -20px;
   height: 400px;
   width: 350px;
+  opacity: 0.5;
   background: purple;
   z-index: 1;
-  -webkit-clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
-  clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
+  -webkit-clip-path: polygon(47% 33%, 71% 25%, 88% 31%, 100% 26%, 100% 100%, 0 100%, 0 29%, 14% 34%, 31% 29%);
+  clip-path: polygon(47% 33%, 71% 25%, 88% 31%, 100% 26%, 100% 100%, 0 100%, 0 29%, 14% 34%, 31% 29%);
 }
 
 div#center_wave_1 {
   position: absolute;
-  top: -50px;
+  top: -70px;
   height: 550px;
   width: 350px;
+  opacity: 0.5;
   background: blue;
   z-index: 2;
   -webkit-clip-path: polygon(61% 40%, 75% 34%, 90% 40%, 100% 33%, 100% 100%, 0 100%, 0 34%, 13% 43%, 30% 35%, 43% 43%);
@@ -61,8 +63,8 @@ div#center_wave_1 {
 
 div#center_wave_2 {
   position: absolute;
-  top: -10px;
-  opacity: 0.8;
+  top: 0px;
+  opacity: 0.5;
   background: #ADD8E6;
   height: 500px;
   width: 350px;
