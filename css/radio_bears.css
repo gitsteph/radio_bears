@@ -326,6 +326,6 @@ div.head { animation: my-animation 2s ease-out 0s infinite alternate; }
 div.head { animation: my-animation 2s ease-in-out 0s infinite alternate; }
 
 @keyframes my-animation {
-  0% { background: #732626; top: 10%; }
-  100% { background: #00caff; top: 60%; }
+  0% { background: #732626; top: 25%; }
+  100% { background: #00caff; top: 30%; }
 }
